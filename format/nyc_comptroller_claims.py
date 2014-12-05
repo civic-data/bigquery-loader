@@ -12,9 +12,11 @@ csvwriter = csv.writer(sys.stdout, delimiter=',', quotechar='"')
 reader = csv.DictReader( sys.stdin )
 
 
+name = [ 'claim','filed_date','claimant_address','claimant_zip','claim_type','settlement_date','settlement_amount','agency_involved','claimed_amount']
+
 for line in reader:
     row=[]
-    for key in line:
+    for key in name:
         #print( key )
         if '_date' in key:
             try:
