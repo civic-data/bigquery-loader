@@ -1,0 +1,11 @@
+[{
+"name": "claim", "type": "string", "description": "claim unique id", "mode": "required" }, {
+"name": "date_filed", "type": "string", "description": "date filed", "mode": "required" }, {
+"name": "claimant_address", "type": "string", "description": "address", "mode": "nullable" }, {
+"name": "claimant_zip", "type": "string", "description": "postal code", "mode": "nullable" }, {
+"name": "claim_type", "type": "string", "description": "type of claim", "mode": "required" }, {
+"name": "settlement_date", "type": "string", "description": "date settled (if any)", "mode": "nullable" }, {
+"name": "settlement_amount", "type": "string", "description": "settlement amount (if any)", "mode": "nullable" }, {
+"name": "agency_involved", "type": "string", "description": "agency involved", "mode": "nullable" }, {
+"name": "claimed_amount", "type": "string", "description": "claim amount", "mode": "nullable" 
+}]
