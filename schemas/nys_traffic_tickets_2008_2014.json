@@ -2,10 +2,8 @@
 "name":"violation_charged_code", "type": "string", "description": "code of violation", "mode": "required" }, {
 "name":"violation_description", "type": "string", "description": "description of violation", "mode": "required" }, {
 "name":"violation_year", "type": "integer", "description": "year of violation", "mode": "required" }, {
-
 "name":"violation_month", "type": "integer", "description": "month of violation", "mode": "required" }, {
-
-"name":"violation_time", "type": "integer", "description": "time of violation", "mode": "nullable" }, {
+"name":"violation_time", "type": "string", "description": "time of violation", "mode": "nullable" }, {
 
 "name":"age_at_violation", "type": "integer", "description": "year of violation", "mode": "required" }, {
 
