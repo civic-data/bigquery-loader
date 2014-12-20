@@ -4,13 +4,11 @@
 "name":"violation_year", "type": "integer", "description": "year of violation", "mode": "required" }, {
 "name":"violation_month", "type": "integer", "description": "month of violation", "mode": "required" }, {
 "name":"violation_time", "type": "string", "description": "time of violation", "mode": "nullable" }, {
-
-"name":"age_at_violation", "type": "integer", "description": "year of violation", "mode": "required" }, {
-
-"name": "state_of_license", "type": "string", "description": "state_of_license", "mode": "required" }, {
-"name": "gender", "type": "string", "description": "gender", "mode": "required" }, {
-"name": "police_agency", "type": "string", "description": "police_agency", "mode": "required" }, {
-"name": "court", "type": "string", "description": "court", "mode": "required" }, {
-"name": "source", "type": "string", "description": "source", "mode": "required" 
+"name":"age_at_violation", "type": "string", "description": "year of violation", "mode": "nullable" }, {
+"name": "state_of_license", "type": "string", "description": "state_of_license", "mode": "nullable" }, {
+"name": "gender", "type": "string", "description": "gender", "mode": "nullable" }, {
+"name": "police_agency", "type": "string", "description": "police_agency", "mode": "nullable" }, {
+"name": "court", "type": "string", "description": "court", "mode": "nullable" }, {
+"name": "source", "type": "string", "description": "source", "mode": "nullable" 
 }
 ]
